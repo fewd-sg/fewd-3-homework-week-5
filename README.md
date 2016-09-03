@@ -27,9 +27,9 @@ reflect user input based on the Technical Requirements  below.
 
 ## Technical Requirements
 
-- Call jQuery ```$.val()``` on inputs or use vanilla JS to get the string value of your user's input
+- Use JS to get the string value of your user's input
 - Store user input in ```var city```
-- Use jQuery ```$.click``` or vanilla JS event listeners to figure out when the user clicks the "Update" button
+- Use JS event listeners to figure out when the user clicks the "Update" button
 - Create ```if / else if / else``` conditionals to control the flow of your application
 - Write at least six different lines of pseudocode and display them inline as JavaScript comments
 - Use the ```||``` operator in your conditionals to allow for multiple string values to execute ```if/else if``` statement code
