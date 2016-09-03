@@ -29,17 +29,17 @@ reflect user input based on the Technical Requirements  below.
 
 - Call ```$.val()``` on inputs to get the string value of your user's input
 - Store user input in ```var city```
-- Use ```$.click``` to figure out when the user clicks the "submit" button
+- Use jQuery ```$.click``` to figure out when the user clicks the "Update" button
 - Create ```if / else if / else``` conditionals to control the flow of your application
 - Write at least six different lines of pseudocode and display them inline as JavaScript comments
 - Use the ```||``` operator in your conditionals to allow for multiple string values to execute ```if/else if``` statement code
 - If a user submits:
 
-  - "New York" or "New York City" or "NYC" make the background of the page nyc.jpg
-  - "San Francisco" or "SF" or "Bay Area" make the background of the page sf.jpg
-  - "Los Angeles" or "LA" or "LAX" make the background of the page la.jpg
-  - "Austin" or "ATX" make the background of the page austin.jpg
-  - "Sydney" or "SYD" make the background of the page sydney.jpg
+  - "New York" or "New York City" or "NYC" make the background of the page `nyc.jpg`
+  - "San Francisco" or "SF" or "Bay Area" make the background of the page `sf.jpg`
+  - "Los Angeles" or "LA" or "LAX" make the background of the page `la.jpg`
+  - "Austin" or "ATX" make the background of the page `austin.jpg`
+  - "Sydney" or "SYD" make the background of the page `sydney.jpg`
 
 Take a look at what your final product should look like before and after:
 
