@@ -55,27 +55,9 @@ After entering "NYC" and submitting:
   or after their input
 - Reset the user input field after it is submitted
 
-NOTE: You will have to add these images to your ```/images``` folder
-
 ## Resources
 
 - [Starter Code and Assets](starter_code/)
-- [JavaScript docs on comparison operators](http://www.w3schools.com/js/js_comparisons.asp)
-- [JavaScript docs on variables](http://www.w3schools.com/js/js_variables.asp)
-
-## Evaluation / Submission
-
-Students should start by using the [starter code](starter_code/) and focus on
-adding the proper JavaScript to update the background of the page. Students
-will create a new repository on GitHub called "homework-city" and push their
-code to it when they are ready to submit. Instructional team should evaluate
-against the solution code and the student's fulfillment of technical
-requirements. Instructional team will provide a numeric grade on a scale for
-each technical requirement: does not meet expectations (0); meets expectations
-(1); exceeds expectations (2). **Note**: If bullet points have child bullets,
-grade the child bullets and not the parent bullet belonging to the child. The
-maximum possible score on this assignment is 28/28. Bonus materials are
-completely optional.
 
 ## Final Project Milestone 1
 
