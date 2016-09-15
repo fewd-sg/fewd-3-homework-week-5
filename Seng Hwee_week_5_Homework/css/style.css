@@ -112,6 +112,7 @@ header {
   text-align: center;
   display: inline-block;
   width: 250px;
+  text-decoration: none;
   height: 72px;
   line-height: 74px;
   vertical-align: middle;
