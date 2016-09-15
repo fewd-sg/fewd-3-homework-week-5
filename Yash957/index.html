@@ -21,7 +21,7 @@
 		<script>
 			function changeBackground() {
 				var city = document.getElementById("city-type").value;
-				switch(city) {
+				switch(city.toLowerCase()) {
 					case "nyc":
 					case "ny":
 					case "new york":
@@ -30,6 +30,7 @@
 						break;
 					case "austin":
 					case "aust":
+					case "atx":
 						document.body.className = "austin";
 						break;
 					case "sf":
@@ -39,6 +40,7 @@
 						break;
 					case "la":
 					case "los angeles":
+					case "lax":
 						document.body.className = "la";
 						break;
 					case "sydney":
