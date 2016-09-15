@@ -2,27 +2,51 @@
 <html lang="en">
 	<head>
     	<meta charset="utf-8">
-    	<meta name="description" content="Your description goes here">
-    	<meta name="keywords" content="one, two, three">
-
 		<title>City Background</title>
-
-		<!-- external CSS link -->
-		<!-- un-comment reset.css if you need it -->
-		<!-- <link rel="stylesheet" href="css/reset.css"> -->
+		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 		<header>
-			<div class="title">
-				<h1>CitiPix</h1> misc
-				<p>Your Cities, Your Pix</p>
+			<div class="title" id="title">
+				<h1>CitiPix</h1>
+				<p>| your cities, your pix |</p>
 			</div>
 		</header>
 
 		<div class="container">
-			<input type="text" id="city-type" placeholder="Enter a city name...">
-			<a href="#" id="submit-button">Update</a>
+			<input type="text" id="city-type" placeholder="Enter a city name ..." onkeydown="if(event.keyCode == 13) changeBackground()" />
+			<a href="#" id="submit-btn" onclick="changeBackground()"> Update </a>
 		</div>
+		<script>
+			function changeBackground() {
+				var city = document.getElementById("city-type").value;
+				switch(city) {
+					case "nyc":
+					case "ny":
+					case "new york":
+					case "new york city":
+						document.body.className = "nyc";
+						break;
+					case "austin":
+					case "aust":
+						document.body.className = "austin";
+						break;
+					case "sf":
+					case "san fran":
+					case "san francisco":
+						document.body.className = "sf";
+						break;
+					case "la":
+					case "los angeles":
+						document.body.className = "la";
+						break;
+					case "sydney":
+					case "syd":
+						document.body.className = "sydney";
+						break;
+				}
+			}
+		</script>
 	</body>
 </html>
