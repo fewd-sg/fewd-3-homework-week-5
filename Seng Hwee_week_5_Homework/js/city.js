@@ -2,7 +2,7 @@
 $(document).ready(function() {
  
   $('#submit-btn').click(function(){
-    event.preventDefault();
+  	
     
 		var city = $('#city-type').val();
 
@@ -28,7 +28,8 @@ $(document).ready(function() {
 	    else if (city == 'sydney' || city == 'syd') {
 	      $('body').attr('class','sydney');
 		}
-
+		
+		return false;
   	})
 
 })
