@@ -23,4 +23,11 @@ else if (cityType === "nyc") {
   document.querySelector('body').style.backgroundImage = 'url(images/nyc.jpg)';
 
 }
-/* get value from the input field */
+
+// var changeBg = function(country) {
+
+
+ // if (country === "austin") {
+ //   document.querySelector('body').style.backgroundImage = 'url(images/austin.jpg)';
+ // }
+}
