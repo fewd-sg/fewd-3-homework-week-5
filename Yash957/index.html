@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+		<title>City Background</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<div class="title" id="title">
+				<h1>CitiPix</h1>
+				<p>| your cities, your pix |</p>
+			</div>
+		</header>
+
+		<div class="container">
+			<input type="text" id="city-type" placeholder="Enter a city name ..." onkeydown="if(event.keyCode == 13) changeBackground()" />
+			<a href="#" id="submit-btn" onclick="changeBackground()"> Update </a>
+		</div>
+		<script>
+			function changeBackground() {
+				var city = document.getElementById("city-type").value;
+				switch(city.toLowerCase()) {
+					case "nyc":
+					case "ny":
+					case "new york":
+					case "new york city":
+						document.body.className = "nyc";
+						break;
+					case "austin":
+					case "aust":
+					case "atx":
+						document.body.className = "austin";
+						break;
+					case "sf":
+					case "san fran":
+					case "san francisco":
+						document.body.className = "sf";
+						break;
+					case "la":
+					case "los angeles":
+					case "lax":
+						document.body.className = "la";
+						break;
+					case "sydney":
+					case "syd":
+						document.body.className = "sydney";
+						break;
+				}
+			}
+		</script>
+	</body>
+</html>
